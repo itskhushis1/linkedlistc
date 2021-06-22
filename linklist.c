@@ -235,6 +235,7 @@ void main() {
       printf("\n");
    } else {
       printf("Element not found.");
+   
    }
 	
    printf("\n");
