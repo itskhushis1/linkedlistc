@@ -168,6 +168,7 @@ void sort() {
 }
 
 void reverse(struct node** head_ref) {
+	
    struct node* prev   = NULL;
    struct node* current = *head_ref;
    struct node* next;
