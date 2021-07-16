@@ -18,6 +18,7 @@ void printList() {
    printf("\n[ ");
 	
    //start from the beginning
+
    while(ptr != NULL) {
       printf("(%d,%d) ",ptr->key,ptr->data);
       ptr = ptr->next;
