@@ -17,6 +17,7 @@ void printList() {
    struct node *ptr = head;
    printf("\n[ ");
 	
+	
    //start from the beginning
 
    while(ptr != NULL) {
@@ -53,6 +54,7 @@ struct node* deleteFirst() {
    head = head->next;
 	
    //return the deleted link
+	
    return tempLink;
 }
 
